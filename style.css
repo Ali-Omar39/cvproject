@@ -224,15 +224,48 @@ main{
  .expcontent1{
    margin-left: 30px;
  }
- .expcontent1 h5{
+ .expproduct h5{
    font-weight: 900px;
    display: block;
    padding-bottom: 5px;
  }
- .expp1{
-   padding-left: 10px;
- }
- .expcontent1>ul>li{
+ .expproduct>ul>li{
    margin-left: 20px;
    padding-top: 10px;
  }
+ .expmanager{
+   padding-top: 30px;
+ }
+ .expmanager h5{
+   font-weight: 900px;
+   display: block;
+   padding-bottom: 5px;
+ }
+ .expmanager>ul>li{
+   margin-left: 20px;
+   padding-top: 10px;
+ }
+
+.reffirst{
+   display: flex;
+   margin-top: 30px;
+   padding-bottom: 20px;
+}
+.refhead{
+   text-transform: uppercase;
+   font-weight: 900;
+}
+.refline{
+   height: 2px;
+   width: 200px;
+   background: #000;
+   margin-left: 100px;
+   margin-top: 10px;
+}
+.refsecond{
+   display: flex;
+   justify-content: space-between;
+}
+.refsecond span{
+   display: block;
+}
