@@ -6,16 +6,16 @@
 }
 .container{
     width: 100%;
-    height: 110vh;
+    height: 115vh;
     display: flex;
 }
 main{
-    height: 110vh;
+    height: 115vh;
     width: 1000px;
 }
 .leftside{
     background: #e3dfdf;
-    height: 110vh;
+    height: 115vh;
     width: 30%;
     padding-top:50px;
     padding-left: 30px;
@@ -91,6 +91,87 @@ main{
     top:20px;
     left: 20px;
  }
+
+.education{
+  display: flex;
+  margin-top: 250px;
+}
+.edu h3{
+  text-transform: uppercase;
+}
+.eduline{
+  height: 2px;
+  width: 100px;
+  background: #000;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.graduation h4{
+  padding-top: 10px;
+}
+.graduation p{
+  padding: 5px 0px;
+}
+.skills{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.skll h3{
+  text-transform: uppercase;
+}
+.skllline {
+  height: 2px;
+  width: 100px;
+  background: #000;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.sklllist{
+  display: flex;
+  padding: 10px 0px;
+}
+.sklllistline{
+  height: 5px;
+  width: 70px;
+  border-radius: 50px;
+  background: #000;
+  margin-left: 20px;
+  margin-top: 10px;
+  z-index: 1;
+}
+.sklllistline1{
+  height: 5px;
+  width: 20px;
+  border-radius: 50px;
+  background: white;
+  margin-top: 10px;
+  margin-left: -5px;
+}
+
+.language{
+  display: flex;
+}
+.lan{
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.lanline{
+  height: 2px;
+  width: 100px;
+  background: #000;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.lanlist{
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+
+
 
 
 
